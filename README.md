@@ -32,4 +32,5 @@ docker compose up --build
 - Notebooks
 
 Untitled.ipynb: este notebook é o pipeline elt do projeto
-Saev_neondb.ipynb: este notebook salva os dados coletados no neondb
+
+Save_neondb.ipynb: este notebook salva os dados coletados no neondb
