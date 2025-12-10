@@ -1,0 +1,7 @@
+.env
+./dados/*
+/notebooks/dados/*
+/notebooks/.env
+/notebooks/.ipynb_checkpoints/*
+/superset_home/*
+superset_home
