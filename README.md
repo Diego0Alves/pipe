@@ -1,8 +1,8 @@
-# pipe
+# Pipeline
 
 ## Objetivo
 
-Este projeto tem como objetivo extrair dados sobre o Bolsa Família por município utlizando seu código ibge para coleta de dados através da api do gov
+Este projeto tem como objetivo extrair dados sobre o Bolsa Família por município utilizando seu código ibge para coleta de dados através da api do gov
 
 ### Iniciando a aplicação
 
@@ -13,10 +13,11 @@ copy .env.example notebooks\.env
 ```
 
 - preecha os dados no .env
-
->api_key=
->PGUSER=
->PGPASSWORD=
+```bash
+api_key=
+PGUSER=
+PGPASSWORD=
+```
 
 - Inicíe com docker compose
 
@@ -34,3 +35,6 @@ docker compose up --build
 Untitled.ipynb: este notebook é o pipeline elt do projeto
 
 Save_neondb.ipynb: este notebook salva os dados coletados pelo pipeline no neondb
+
+Em Save_neondb.ipynb no campo neon_url deve ser alterada a url para salvar no DB desejado
+
